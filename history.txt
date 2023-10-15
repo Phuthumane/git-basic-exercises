@@ -1,0 +1,500 @@
+   30  git add index.html
+   31  git status
+   32  git commit -m"Fixed an error of the extention of the index file"
+   33  git status
+   34  git branch hello-world-images
+   35  git branch
+   36  git checkout hello-world-images
+   37  git checkout master
+   38  git checkout hello-world-images
+   39  git branch
+   40  git status
+   41  git add --all
+   42  git status
+   43  git restore --stage index.html1
+   44  git status
+   45  git commit -m"Added commit to hello world"
+   46  ls
+   47  git checkout master
+   48  ls
+   49  git checkout -b emergency-fix
+   50  ls
+   51  git status
+   52  git add index.html
+   53  git commit -m"Updated index.html with emergency-fix."
+   54  git checkout master
+   55  git merge emergency-fix
+   56  git -d emergency-fix
+   57  git branch -d emergency-fix
+   58  git checkout hello-world-images
+   59  git status
+   60  git add index.html
+   61  git add img_hello_git.jpg
+   62  git commit -m"Added a new image"
+   63  git checkout master
+   64  git merge hello-world-images
+   65  git status
+   66  git add inex.html
+   67  git add index.html
+   68  git status
+   69  git commit -m"Merged with hello-world-images after resolving conflicts"
+   70  git branch -d hello-world-images
+   71  ls /
+   72  git ls -help
+   73  ls
+   74  ls/data
+   75  pwd
+   76  mkdir learning_unix
+   77  pwd
+   78  ls
+   79  cd learning_unix
+   80  cd home
+   81  cd
+   82  cd/
+   83  rmdir learning_unix
+   84  cd home
+   85  cd myproject
+   86  cd home
+   87  cd users
+   88  cd../..
+   89  cd ../..
+   90  git config --list
+   91  ls
+   92  cd myproject
+   93  ls
+   94  git status
+   95  git reset
+   96  git status
+   97  rmdir /s /q C:\Users\student\myproject
+   98  rmdir C:\Users\student\myproject
+   99  rmdir C:\Users\student\myproject
+  100  clear
+  101  cd ..
+  102  ls
+  103  cd ..
+  104  pwd
+  105  cd student
+  106  ls
+  107  rmdir myproject
+  108  rm -r myproject
+  109  rmdir /s myproject
+  110  rmdir /s /q "myproject"
+  111  rd /s /q "myproject"
+  112  ls
+  113  pwd
+  114  ls -al
+  115  clear
+  116  git --version
+  117  mkdir myproject
+  118  cd myproject
+  119  pwd
+  120  git init
+  121  ls
+  122  git status
+  123  git add index.html
+  124  git status
+  125  git add --all
+  126  git status
+  127  git commit -m"First release of Hello World"
+  128  git status
+  129  git status --short
+  130  git commit -a -m"Updated index.html with a new line"
+  131  git status --short
+  132  git log
+  133  git log -help
+  134  git ls -help
+  135  git help --all
+  136  clear
+  137  pwd
+  138  git branch hello-world-images
+  139  git branch
+  140  git checkout hello-world-images
+  141  git branch
+  142  git status
+  143  git status --short
+  144  git status
+  145  git add --all
+  146  git status --short
+  147  git commit -m"Added image to hello world."
+  148  git log
+  149  ls
+  150  git checkout master
+  151  ls
+  152  git checkout -b emergency-fic
+  153  git checkout master
+  154  git branch -m emergency-fic emegency-fix
+  155  git checkout emergency-fix
+  156  git branch -m emegency-fix emergency-fix
+  157  git checkout emergency-fix
+  158  git status
+  159  ls
+  160  git add index.html
+  161  git status
+  162  git commit -m"Updated index.html with emergency-fix branch."
+  163  git checkout master
+  164  git merge emergency-fix
+  165  git branch
+  166  git branch -d emergency-fix
+  167  git branch
+  168  git checkout hello-world-images
+  169  ls
+  170  git checkout master
+  171  git checkout hello-world-images
+  172  git status --short
+  173  git add --all
+  174  git commit -m"Added a new image."
+  175  git checkout master
+  176  git merge hello-world-images
+  177  git add index.html
+  178  git status
+  179  git commit -m"merged with hello-world-images after fixing conflicts"
+  180  git branch
+  181  git branch -d hello-world-images
+  182  git cinfig
+  183  git config
+  184  git status
+  185  git config user.email
+  186  git config --global user.email "phuthumanematiwane@gmail.com"
+  187  git config user.email
+  188  clear
+  189  ls
+  190  cd myproject
+  191  git config user.email
+  192  git commit --amend
+  193  cd myproject
+  194  git commit --amend --author="Phuthumane Matiwane phuthumanematiwane@gmail.com"
+  195  git config user.email
+  196  cd myproject
+  197  git remote add https://github.com/Popayi/hello-world.git
+  198  git push --set-upstream origin master
+  199  git push --set-upstream origin myproject
+  200  branch
+  201  git branch
+  202  git init
+  203  git push --set-upstream origin master
+  204  git remote add origin https://github.com/Popayi/hello-world.git
+  205  git push --set-upstream origin master
+  206  git fetch origin
+  207  git status
+  208  git status --short
+  209  git log origin/master
+  210  git diff origin/master
+  211  git merge origin/master
+  212  git status
+  213  git pull origin
+  214  git status
+  215  git status --short
+  216  git commit -m"Updated index.html. Resized the first image"
+  217  git commit -a -m"Updated index.html. Resized the first image"
+  218  git status --short
+  219  git status
+  220  git push origin
+  221  git branch
+  222  git branch
+  223  git pull
+  224  git branch
+  225  git status
+  226  git branch -a
+  227  git checkout html-skeleton
+  228  git pull
+  229  git branch
+  230  git checkout -b update-readme
+  231  ls
+  232  git status
+  233  git add READ.md
+  234  git add README.md
+  235  git status
+  236  git commit -m"Updated readme for GitHub Branches"
+  237  git push origin update-readme
+  238  clear
+  239  cd ..
+  240  pwd
+  241  git config --global user.email"phuthumanem@gmail.com"
+  242  git config
+  243  git config user.email
+  244  git commit --amend --author="Phuthumane Matiwane phuthumanem@gmail.com"
+  245  git commit --amend user.email"phuthumanem@gmail.com"
+  246  clear
+  247  git config user.email
+  248  git config user.email"phuthumanem@gmail.com"
+  249  git config user.email
+  250  git config --global user.email"phuthumanem@gmail.com"
+  251  git config user.email
+  252  mv .gitconfig
+  253  cd ~
+  254  git config user.email
+  255  git config --global user.email
+  256  git config --global user.email "phuthumanem@gmail.com"
+  257  git config --global user.email
+  258  git config --global user.email
+  259  git config user.email
+  260  clear
+  261  git remote add origin https://github.com/Umuzi-org/Phuthumane-Matiwane-219-level-1-programming-katas-python
+  262  git remote -v
+  263  git remote add origin  https://github.com/Umuzi-org/Phuthumane-Matiwane-219-level-1-programming-katas-python.git
+  264  cd coding_challenges
+  265   git remote add origin  https://github.com/Umuzi-org/Phuthumane-Matiwane-219-level-1-programming-katas-python
+  266  clear
+  267  cd ..
+  268  mkdir Phuthumane-Matiwane-219-level-1-programming
+  269  cd Phuthumane-Matiwane-219-level-1-programming
+  270  git clone https://github.com/Umuzi-org/Phuthumane-Matiwane-219-level-1-programming-katas-python
+  271  ls
+  272  git clone https://github.com/Umuzi-org/Phuthumane-Matiwane-219-level-1-programming-katas-python
+  273  git config --global --get-regexp credential
+  274  git credential fill
+  275  git config --global user.name "Phuthumane Matiwane"
+  276  git config --global user.email "phuthumanem@gmail.com"
+  277  git config --list
+  278  git config --global --get-regexp credential
+  279  git credential fill
+  280  ls
+  281  cd Phuthumane-Matiwane-219-level-1-programming
+  282  git clone https://github.com/Umuzi-org/Phuthumane-Matiwane-219-level-1-programming-katas-python
+  283  git clone https:Phuthumane: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@github.com/Umuzi-org/Phuthumane-Matiwane-219-level-1-programming-katas-python
+  284  clear
+  285  git clone git@github.com:Umuzi-org/Phuthumane-Matiwane-219-level-1-programming-katas-python.git
+  286  cd ..
+  287  ls -al ~/.ssh
+  288  ssh-keygen -t ed25519 -C "phuthumanem@gmail.com"
+  289  git clone https://github.com/Umuzi-org/Phuthumane-Matiwane-219-level-1-programming-katas-python.git
+  290  mkdir git-basic-exercises
+  291  cd git-basic-exercises
+  292  ls -a
+  293  git init
+  294  ls -a
+  295  git status
+  296  touch README.md
+  297  ls -a
+  298  git status
+  299  git log
+  300  git add README.md
+  301  git status
+  302  git status --short
+  303  git reset -- README.md
+  304  git status
+  305  git add README.md
+  306  git status
+  307  git commit -m "initial commit"
+  308  git log
+  309  nano README.md
+  310  cat README.md
+  311  git status
+  312  git commit -m"second commit"
+  313  git status --short
+  314  git add README.md
+  315  git log
+  316  git add README.md
+  317  git status
+  318  git commit -m"second commit"
+  319  nano README.md
+  320  clear
+  321  cat README.md
+  322  git status
+  323  git add README.md
+  324  git add README.md
+  325  git status
+  326  git commit -m"third commit"
+  327  git log
+  328  git checkout 186219fdd4e74e0ef6cc0eae17873e8807ca71bf
+  329  cat README.md
+  330  git checkout main
+  331  git checkout master
+  332  git branch
+  333  git branch milkshake-flavours
+  334  git branch
+  335  git checkout milkshake-flavours
+  336  nano milkshake-flavours
+  337  cat README.md
+  338  git status
+  339  git clean -n
+  340  git clean -f
+  341  git status
+  342  ls
+  343  nano milkshakes.md
+  344  git status
+  345  git add milkshakes.md
+  346  git add milkshakes.md
+  347  git status
+  348  git commit -m"added initial flavours"
+  349  git log
+  350  git checkout master
+  351  ls
+  352  git checkout history
+  353  git checkout -b history
+  354  git log
+  355  history > history.txt
+  356  git status
+  357  git add history.txt
+  358  git add history.txt
+  359  git commit -m"added history"
+  360  git checkout milkshake-flavours
+  361  git log
+  362  nano README.md
+  363  clear
+  364  git status
+  365  git commit -a -m"random readme changes"
+  366  git status
+  367  git checkout history
+  368  cat READMW.md
+  369  cat README.md
+  370  ls
+  371  rm README.md
+  372  ls
+  373  echo "booya" > README.md
+  374  ls
+  375  git status
+  376  git commit -a -m"rewrote readme"
+  377  git status
+  378  cat README.md
+  379  git checkout master
+  380  clear
+  381  ls
+  382  git log
+  383  git checkout milkshake-flavours
+  384  ls
+  385  git log
+  386  git checkout history
+  387  ls
+  388  git log
+  389  clear
+  390  git checkout master
+  391  git merge milkshake-flavours
+  392  ls
+  393  git log
+  394  git merge history
+  395  git merge history
+  396  ls
+  397  git merge history
+  398  git status
+  399  git commit -a -m"Fixed merging conflicts"
+  400  git ls
+  401  ls
+  402  git branch
+  403  git checkout history
+  404  git merge master
+  405  git checkout master
+  406  cd ..
+  407  cd git-basic-exercises
+  408  git remote add origin https://github.com/Phuthumane/git-basic-exercises.git
+  409  git branch -M main
+  410  git push -u origin main
+  411  git remote add origin https://github.com/Phuthumane/git-basic-exercises.git
+  412  git branch -M master
+  413  git push -u origin master
+  414  git remote -r
+  415  ls
+  416  git remote add origin https://github.com/Phuthumane/git-basic-exercises.git
+  417  git branch main
+  418  git branch -M main
+  419  git push -u origin main
+  420  git push -u origin master
+  421  git remote add origin https://github.com/Phuthumane/git-basic-exercises
+  422  git remote -v
+  423  git checkout master
+  424  clear
+  425  cd ..
+  426  pwd
+  427  cd git-basic-exercises
+  428  ls
+  429  git branch
+  430  git push origin main
+  431  git checkout history
+  432  git push origin history
+  433  cd ..
+  434  ls
+  435  cd git-basic-exercises
+  436  cd master
+  437  ls
+  438  git branch
+  439  git checkout main
+  440  git fetch origin
+  441  git status
+  442  git branch naster
+  443  pwd
+  444  git checkout master
+  445  git remote -v
+  446  git remote remove origin
+  447  git status
+  448  git remote -v
+  449  git remote add origin https://github.com/Phuthumane/git-basic-exercises.git
+  450  git remote -v
+  451  git branch -M main
+  452  git push -u origin main
+  453  git push -u origin main
+  454  git push -u origin main
+  455  git branch 
+  456  git checkout naster
+  457  ls
+  458  git checkout main
+  459  ls
+  460  git remote -v
+  461  git remote origin
+  462  git remote remove origin
+  463  git remote -v
+  464  cd ..
+  465  rmdir git-basic-exercises
+  466   rmdir git-basic-exercises
+  467  rmdir git-basic-exercises
+  468  Remove-Item -Recurse -Force git-basic-exercises
+  469  rm -r git-basic-exercises
+  470  ls
+  471  mkdir git-basic-exercises
+  472  cd git-basic-exercises
+  473  ls -a
+  474  git init
+  475  git status
+  476  touch README.md
+  477  ls -a
+  478  git status
+  479  git log
+  480  git add README.md
+  481  git status
+  482  git reset README.md
+  483  git status
+  484  git add README.md
+  485  git status --short
+  486  git commit -m"initial commit"
+  487  git log
+  488  nano README.md
+  489  cat README.md
+  490  git status --short
+  491  git add README.md
+  492  git add README.md
+  493  git status
+  494  git commit -m"second commit"
+  495  nano README.md
+  496  git status
+  497  git commit -a -m"third commit"
+  498  git status
+  499  git status --short
+  500  git log
+  501  git checkout 81c33917efc7668d9b83b37fc879bc22a6b72582
+  502  cat README.md
+  503  git checkout main
+  504  git checkout master
+  505  cat README.md
+  506  git branch
+  507  git branch milkshake-flavours
+  508  git branch
+  509  git checkout milkshake-flavours
+  510  nano milkshakes.md
+  511  git status
+  512  ls
+  513  git add README.md
+  514  git status
+  515  git status --short
+  516  git add milkshakes.md
+  517  git status
+  518  git commit -m"added initial flavours"
+  519  git status
+  520  git log
+  521  git checkout master
+  522  git branch -m master main
+  523  ls
+  524  git log
+  525  git branch history
+  526  git checkout history
+  527  ls
+  528  git log
+  529  history > history.txt
